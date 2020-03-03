@@ -22,7 +22,7 @@ header nav .fas {
   font-size: 30px;
 }
 header nav .span-search {
-  width: 155;
+  width: 155px;
 }
 header nav .span-search .icon-search {
   font-size: 25px;
@@ -218,10 +218,6 @@ header nav .img img {
   height: 3rem;
 }
 
-.activ-star {
-  color: #ec3454;
-}
-
 .no-activ {
   color: #000150;
 }
@@ -235,21 +231,6 @@ header nav .img img {
   left: 12px;
   font-size: 22px;
   color: #ec3454;
-}
-
-footer {
-  flex-shrink: 0;
-  background: url("../images/footer bg-min.png") no-repeat center center;
-  background-size: cover;
-  padding: 40px 0px;
-  color: #eee;
-}
-footer .div-text {
-  line-height: 1.7;
-  font-size: 20px;
-}
-footer .img {
-  width: 300px;
 }
 
 .notification {
@@ -620,6 +601,13 @@ body {
   border-radius: 20px;
   margin-top: 20px;
 }
+.restaurants .content-card .back-color a:hover {
+  text-decoration: none;
+}
+.restaurants .content-card .back-color:hover {
+  transform: scale(1.05);
+  transition: 2s;
+}
 .restaurants .content-card p {
   color: #555;
   font-size: 18px;
@@ -630,21 +618,10 @@ body {
 .restaurants .content-card .star ul li {
   font-size: 20px;
   display: inline-block;
-}
-.restaurants .content-card .star ul li:nth-of-type(1) {
-  color: #ec3454;
-}
-.restaurants .content-card .star ul li:nth-of-type(2) {
-  color: #ec3454;
-}
-.restaurants .content-card .star ul li:nth-of-type(3) {
-  color: #ec3454;
-}
-.restaurants .content-card .star ul li:nth-of-type(4) {
   color: #000150;
 }
-.restaurants .content-card .star ul li:nth-of-type(5) {
-  color: #000150;
+.restaurants .content-card .star ul .activ-star {
+  color: #ec3454;
 }
 .restaurants .content-card .test .span-color {
   padding: 0px 10px;
@@ -1326,6 +1303,25 @@ back-marg {
   border-radius: inherit;
   height: 60px;
   border: none;
+}
+
+footer {
+  flex-shrink: 0;
+  background: url("../images/footer bg-min.png") no-repeat center center;
+  background-size: cover;
+  padding: 40px 0px;
+  color: #eee;
+}
+footer .div-text {
+  line-height: 1.7;
+  font-size: 20px;
+}
+footer .img {
+  width: 300px;
+}
+
+.activ-star {
+  color: #ec3454;
 }
 
 /*# sourceMappingURL=style.css.map */
